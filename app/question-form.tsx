@@ -1,12 +1,11 @@
-import {fetchAttributes, submitQuestions} from "@/app/actions";
+import { fetchAttributes, submitQuestions } from "@/app/actions";
 
 interface QuestionFormProps {
 	modelId: string;
 }
 
-export const QuestionForm = async ({modelId}: QuestionFormProps) => {
+export const QuestionForm = async ({ modelId }: QuestionFormProps) => {
 	const data = await fetchAttributes(modelId);
-	console.log(data.data.attributes.metadata.attributes);
 	return (
 		<div className="flex-1 border-2 rounded-lg p-2">
 			<form action={submitQuestions}>
