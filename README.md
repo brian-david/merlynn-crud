@@ -22,7 +22,7 @@ Requirements
 
 Before setting up the project, ensure you have the following dependencies installed:
 
-Node.js (version X.X.X or later)
+Node.js
 
 MongoDB (ensure an instance is running or provide a remote connection string)
 
@@ -38,26 +38,18 @@ Follow these steps to set up and run the application:
 
 1. Clone the repository
 
-git clone https://github.com/your-repo/project-name.git
-cd project-name
+git clone git@github.com:brian-david/merlynn-crud.git
+cd merlynn-crud
 
 2. Install dependencies
 
 npm install
 
-3. Set up environment variables
+3. Set up environment mongodb connection string
 
-Create a .env file in the root directory and add the required environment variables:
+in lib/dbCommect.ts on line 13 update the var MONGODB_URL to your connection string
 
-DATABASE_URL=your-mongodb-connection-string
-API_KEY=your-api-key
-OTHER_VAR=your-value
-
-4. Run database migrations (if applicable)
-
-npx prisma migrate dev
-
-5. Start the application
+4. Start the application
 
 Development mode:
 
