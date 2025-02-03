@@ -1,10 +1,10 @@
 #Merlynn Assessment
 
-Description
+##Description
 
 This project is a Next.js 15 application that uses app routing and server actions along with Tailwind CSS. It connects to a MongoDB database using Mongoose. The application provides users with various functionalities to interact with the TOM API and store relevant data.
 
-Features
+##Features
 
 Pull metadata from the TOM API for the "Drink choice" model and display the model name and input variables in a form for the user to complete. This should hit the v3/models or v3/models/[id] endpoints.
 
@@ -18,7 +18,7 @@ Add batch functionality of the TOM API.
 
 Allow the user to pick any model from the TOM API.
 
-Requirements
+##Requirements
 
 Before setting up the project, ensure you have the following dependencies installed:
 
@@ -32,7 +32,7 @@ Mongoose
 
 Tailwind CSS
 
-Setup Instructions
+##Setup Instructions
 
 Follow these steps to set up and run the application:
 
