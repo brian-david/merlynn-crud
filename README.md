@@ -38,8 +38,8 @@ Follow these steps to set up and run the application:
 
 1. Clone the repository
 
-git clone git@github.com:brian-david/merlynn-crud.git
-cd merlynn-crud
+  git clone git@github.com:brian-david/merlynn-crud.git
+  cd merlynn-crud
 
 2. Install dependencies
 
